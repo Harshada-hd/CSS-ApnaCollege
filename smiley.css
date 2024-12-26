@@ -1,0 +1,68 @@
+#face{
+    height: 600px;
+    width: 600px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+#mouth{
+    height: 120px;
+    width: 300px;
+    background-color: red;
+    border-radius: 0 0 110px 110px;
+    position: absolute;
+    top: 400px;
+    left: 160px;
+    border: 3px solid black;
+
+
+}
+
+.tongue{
+    height: 120px;
+    width: 110px;
+    background-color: rgb(153, 65, 14);
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 460px;
+    left: 260px;
+    border: 3px solid white;
+}
+
+
+.left, .right{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left:150px ;
+    top: 180px;
+    border: 3px solid white;
+}
+.right{
+  left: 360px;
+}
+.nose{
+    height: 20px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 320px;
+    left: 290px;
+}
+
+.eye1, .eye2 {
+    height: 30px;
+    width: 30px;
+    background-color: wheat;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 190px;
+    top: 220px;
+}
+.eye2{
+    left: 400px;
+}
